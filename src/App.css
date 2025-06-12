@@ -4,7 +4,6 @@ body {
   background-color: #000;
   color: #333;
   line-height: 1.5;
-  height: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -13,7 +12,11 @@ body {
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-top: -88px;
+  margin-right: auto;
+  margin-bottom: -88px;
+  margin-left: auto;
   padding: 40px 20px;
   display: flex;
   justify-content: center;
@@ -23,6 +26,7 @@ body {
 
 @media (max-width: 768px) {
   .container {
+    margin: 0 auto;
     max-width: 90%;
     padding: 30px 16px;
   }
@@ -30,6 +34,7 @@ body {
 
 @media (max-width: 480px) {
   .container {
+    margin: 0 auto;
     max-width: 95%;
     padding: 20px 12px;
   }
